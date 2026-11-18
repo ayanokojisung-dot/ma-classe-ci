@@ -1,0 +1,8 @@
+name: Etapes
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    step:
+      - uses: actions/checkout@v6
+      - run: echo "Build"

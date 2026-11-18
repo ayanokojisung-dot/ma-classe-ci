@@ -1,0 +1,4 @@
+docker run -d --name db -e POSTGRES_PASSWORD=secret postgres:16
+docker rm -f db
+docker run -d --name db -e POSTGRES_PASSWORD=secret postgres:16
+# Les tables creees avant ont disparu. Pourquoi ?

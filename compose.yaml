@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    image: ma-classe:1.0
+    ports:
+      - "8000:8000"
+    environment:
+      TITRE: "Ma Classe - L2 GL/ARS"
+    volumes:
+      - donnees-classe:/data
+volumes:
+  donnees-classe:

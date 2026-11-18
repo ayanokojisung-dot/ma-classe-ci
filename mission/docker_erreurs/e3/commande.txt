@@ -1,0 +1,2 @@
+docker run -d --name web -p 8000 ma-classe:1.0
+# Le navigateur affiche "connexion refusee" sur http://localhost:8000
