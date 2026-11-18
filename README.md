@@ -4,3 +4,4 @@
 - `Dockerfile`, `compose.yaml` : conteneurisation de l'application. `site-statique/` : TP3A.
 - `scripts/` : `ci.sh` (CI locale), `valider_workflow.py`, `check_docker.sh`.
 - `registry/` : plan B registre local. `solutions/` : RESERVE A L'ENSEIGNANT (retirer avant diffusion).
+Essai de declencheur
