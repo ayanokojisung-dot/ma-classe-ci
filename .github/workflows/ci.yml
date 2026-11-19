@@ -17,4 +17,4 @@ jobs:
       - name: Lint
         run: python -m py_compile moyenne.py serveur.py
       - name: Tests
-        run: python -m unittest -v
+        run: python -m unitest -v
