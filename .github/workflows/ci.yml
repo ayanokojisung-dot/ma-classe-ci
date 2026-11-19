@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Lint
-        run: python -m py_compile moyenne.py serveur.pyy
+        run: python -m py_compile moyenne.py serveur.py
       - name: Tests
-        run: python -m unitest -v
+        run: python -m unittest -v
